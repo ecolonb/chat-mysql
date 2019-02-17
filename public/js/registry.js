@@ -1,0 +1,1 @@
+console.log('Registry Js loaded!')
