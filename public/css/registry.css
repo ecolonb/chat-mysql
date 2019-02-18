@@ -1,0 +1,17 @@
+.registry {
+    border: 1px solid rgb(119, 216, 151);
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgb(193, 215, 235);
+}
+
+body {
+    background-color: #292F4C;
+}
+
+.alert {
+    padding: 0;
+    padding-left: 5px;
+    margin-top: 10px;
+    display: none;
+}

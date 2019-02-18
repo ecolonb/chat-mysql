@@ -14,10 +14,11 @@ app.use(bodyParser.json());
 
 // sockets
 module.exports.io = socketIO(server);
-require('./sockets/socket')
+
+require('./server/sockets/socket')
 
 //Database pool
-const pool = require('./database/database.js')
+const pool = require('./server/database/database.js')
 
 // Server on
 server.listen(port, () => {
